@@ -1,0 +1,39 @@
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 70%;
+  text-align: center;
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.each-emoji-container {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.each-emoji {
+  width: 120px;
+}
+
+.love-emoji {
+  height: 100px;
+  width: 110px;
+}
